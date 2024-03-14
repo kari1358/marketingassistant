@@ -1,0 +1,522 @@
+{
+  "project": {
+    "id": "cg7hkp",
+    "name": "Merchant Product Description Marketing Assistant",
+    "creationTs": 1684866947213,
+    "lastModifiedTs": 1710452400556,
+    "userSetData": {
+      "description": "Write a product description that is on brand, optimized for Google search and other platform-specific requirements.",
+      "tags": [
+        "text"
+      ],
+      "contactURL": "",
+      "tutorialYouTube": ""
+    }
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "text_processor_nb5g59",
+        "nodeSpecId": "text_processor",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 288,
+          "previewX": 368,
+          "previewY": 240,
+          "previewWidth": 144,
+          "previewHeight": 160
+        },
+        "uiData": {
+          "posX": 16,
+          "posY": -720,
+          "width": 176,
+          "height": 105,
+          "selected": false
+        },
+        "propValues": {
+          "mode": "format",
+          "separator": "\\n",
+          "formatString": "{1}\nThis product description will be used on the company's official website.\n\nMake sure it's optimized for Google Search.",
+          "hidePreview": false
+        },
+        "inputValues": {
+          "texts": []
+        },
+        "incomingEdges": {
+          "texts": [
+            {
+              "sourceNodeId": "text_processor_qkas03",
+              "outputId": "text"
+            }
+          ]
+        }
+      },
+      {
+        "id": "text_comparison_bumyjw",
+        "nodeSpecId": "text_comparison",
+        "customData": {
+          "initialWidth": 448,
+          "initialHeight": 336,
+          "previewX": 1200,
+          "previewY": 624,
+          "previewWidth": 448,
+          "previewHeight": 336
+        },
+        "uiData": {
+          "posX": 608,
+          "posY": -688,
+          "width": 176,
+          "height": 155,
+          "selected": false
+        },
+        "propValues": {
+          "columnLabels": "Receommended Product Description",
+          "hidePreview": false
+        },
+        "inputValues": {
+          "texts": []
+        },
+        "incomingEdges": {
+          "texts": [
+            {
+              "sourceNodeId": "palm_textgen_fqvlsr",
+              "outputId": "answer"
+            },
+            {
+              "sourceNodeId": "palm_textgen_zslbr8",
+              "outputId": "answer"
+            },
+            {
+              "sourceNodeId": "palm_textgen_hyen95",
+              "outputId": "answer"
+            },
+            {
+              "sourceNodeId": "palm_textgen_4r8g88",
+              "outputId": "answer"
+            }
+          ]
+        }
+      },
+      {
+        "id": "input_text_lw5zub",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 48,
+          "previewY": 208,
+          "previewWidth": 304,
+          "previewHeight": 96
+        },
+        "uiData": {
+          "posX": -672,
+          "posY": -880,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "shoes",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_oj9ghe",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 48,
+          "previewY": 48,
+          "previewWidth": 304,
+          "previewHeight": 144
+        },
+        "uiData": {
+          "posX": -672,
+          "posY": -720,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Handmade in LA using 50% merino wool and a proprietary waterproof technology. Keeping you warm and dry. ",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_z1dle7",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 48,
+          "previewY": 320,
+          "previewWidth": 304,
+          "previewHeight": 96
+        },
+        "uiData": {
+          "posX": -672,
+          "posY": -576,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "- Designed, developed, and handcrafted in L.A. using our proprietary men's and women's lasts, for the perfect fit \n- A modern interpretation of a classic lace-up, now turned golf shoe \n- Premium Mastrotto® Italian leathers are the best we’ve found with a soft, buttery feel that provides a LUXE experience from the first wear\n- Made in the USA laces\n- OrthoLite® anti-microbial insole, for supreme cushioning and breathability\n- Lightweight cushioning thanks to our hand-buffed, high elastic EVA midsole\n- Vibram® Rubber outsole provides traction and durability on multi-surfaces",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_xn5s2i",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 48,
+          "previewY": 432,
+          "previewWidth": 304,
+          "previewHeight": 96
+        },
+        "uiData": {
+          "posX": -672,
+          "posY": -414,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "- Designed, developed, and handcrafted in L.A. using our proprietary men's and women's lasts, for the perfect fit \n- A timeless upper with an innovative one-piece upper meticulously crafted to fit like a glove  \n- Premium Mastrotto® Italian leathers are the best we’ve found with a soft, buttery feel that provides a LUXE experience from the first wear\n- Made in USA laces\n- OrthoLite® anti-microbial insole, for supreme cushioning and breathability\n- Durable solid rubber outsole in YOUR CHOICE or Black or White",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_e92jxp",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 48,
+          "previewY": 544,
+          "previewWidth": 304,
+          "previewHeight": 96
+        },
+        "uiData": {
+          "posX": -672,
+          "posY": -268,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "male teenagers",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "text_processor_rdbw27",
+        "nodeSpecId": "text_processor",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 288,
+          "previewX": 368,
+          "previewY": 32,
+          "previewWidth": 160,
+          "previewHeight": 176
+        },
+        "uiData": {
+          "posX": 16,
+          "posY": -848,
+          "width": 176,
+          "height": 105,
+          "selected": false
+        },
+        "propValues": {
+          "mode": "format",
+          "separator": "\\n",
+          "formatString": "{1}\n\nWrite a YouTube video description for an intro video of this product. Make sure it's optimized for Google Search and Youtube search.",
+          "hidePreview": false
+        },
+        "inputValues": {
+          "texts": []
+        },
+        "incomingEdges": {
+          "texts": [
+            {
+              "sourceNodeId": "text_processor_qkas03",
+              "outputId": "text"
+            }
+          ]
+        }
+      },
+      {
+        "id": "text_processor_qkas03",
+        "nodeSpecId": "text_processor",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 288,
+          "previewX": 48,
+          "previewY": 656,
+          "previewWidth": 304,
+          "previewHeight": 160
+        },
+        "uiData": {
+          "posX": -224,
+          "posY": -736,
+          "width": 176,
+          "height": 105,
+          "selected": false
+        },
+        "propValues": {
+          "mode": "format",
+          "separator": "\\n",
+          "formatString": "Write a product description to incentivize more {5} to buy this {1}. Use the following as the main context: {2} \n\nUse the two following pieces as a style reference: \"{3}\" and \"{4}\" \n\nMake sure the style, including tone and length, respects the style reference.\n\n[REQUEST END]",
+          "hidePreview": false
+        },
+        "inputValues": {
+          "texts": []
+        },
+        "incomingEdges": {
+          "texts": [
+            {
+              "sourceNodeId": "input_text_lw5zub",
+              "outputId": "text"
+            },
+            {
+              "sourceNodeId": "input_text_oj9ghe",
+              "outputId": "text"
+            },
+            {
+              "sourceNodeId": "input_text_z1dle7",
+              "outputId": "text"
+            },
+            {
+              "sourceNodeId": "input_text_xn5s2i",
+              "outputId": "text"
+            },
+            {
+              "sourceNodeId": "input_text_e92jxp",
+              "outputId": "text"
+            }
+          ]
+        }
+      },
+      {
+        "id": "text_processor_sfru1j",
+        "nodeSpecId": "text_processor",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 288,
+          "previewX": 368,
+          "previewY": 416,
+          "previewWidth": 144,
+          "previewHeight": 160
+        },
+        "uiData": {
+          "posX": 16,
+          "posY": -592,
+          "width": 176,
+          "height": 105,
+          "selected": false
+        },
+        "propValues": {
+          "mode": "format",
+          "separator": "\\n",
+          "formatString": "{1}\nThis product description will be used for a Facebook post.\n\nMake sure it's optimized for Facebook's algorithm. Assuming this is a regular post, not a Facebook ad.",
+          "hidePreview": false
+        },
+        "inputValues": {
+          "texts": []
+        },
+        "incomingEdges": {
+          "texts": [
+            {
+              "sourceNodeId": "text_processor_qkas03",
+              "outputId": "text"
+            }
+          ]
+        }
+      },
+      {
+        "id": "text_processor_ilfn5l",
+        "nodeSpecId": "text_processor",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 288,
+          "previewX": 368,
+          "previewY": 592,
+          "previewWidth": 144,
+          "previewHeight": 160
+        },
+        "uiData": {
+          "posX": 16,
+          "posY": -448,
+          "width": 176,
+          "height": 105,
+          "selected": false
+        },
+        "propValues": {
+          "mode": "format",
+          "separator": "\\n",
+          "formatString": "{1}\nThis product description will be used for a Facebook post.\n\nMake sure it's optimized for Facebook's algorithm. Assuming this is a Facebook ad targeting the targeted group users want to sell to, not just a regular post.",
+          "hidePreview": false
+        },
+        "inputValues": {
+          "texts": []
+        },
+        "incomingEdges": {
+          "texts": [
+            {
+              "sourceNodeId": "text_processor_qkas03",
+              "outputId": "text"
+            }
+          ]
+        }
+      },
+      {
+        "id": "palm_textgen_zslbr8",
+        "nodeSpecId": "palm_textgen",
+        "customData": {
+          "previewX": 880,
+          "previewY": 48,
+          "previewWidth": 304,
+          "previewHeight": 528
+        },
+        "uiData": {
+          "posX": 256,
+          "posY": -720,
+          "width": 176,
+          "height": 205,
+          "selected": false
+        },
+        "propValues": {
+          "temperature": 0.5,
+          "maxOutputTokens": 335,
+          "immediateMode": false,
+          "hidePreview": false
+        },
+        "inputValues": {
+          "prompt": "",
+          "apiKey": ""
+        },
+        "incomingEdges": {
+          "prompt": [
+            {
+              "sourceNodeId": "text_processor_nb5g59",
+              "outputId": "text"
+            }
+          ]
+        }
+      },
+      {
+        "id": "palm_textgen_4r8g88",
+        "nodeSpecId": "palm_textgen",
+        "customData": {
+          "previewX": 1200,
+          "previewY": 592,
+          "previewWidth": 304,
+          "previewHeight": 528
+        },
+        "uiData": {
+          "posX": 256,
+          "posY": -272,
+          "width": 176,
+          "height": 205,
+          "selected": false
+        },
+        "propValues": {
+          "temperature": 0.8846153846153846,
+          "maxOutputTokens": 256,
+          "immediateMode": false,
+          "hidePreview": false
+        },
+        "inputValues": {
+          "prompt": "",
+          "apiKey": ""
+        },
+        "incomingEdges": {
+          "prompt": [
+            {
+              "sourceNodeId": "text_processor_ilfn5l",
+              "outputId": "text"
+            }
+          ]
+        }
+      },
+      {
+        "id": "palm_textgen_hyen95",
+        "nodeSpecId": "palm_textgen",
+        "customData": {
+          "previewX": 1200,
+          "previewY": 48,
+          "previewWidth": 304,
+          "previewHeight": 528
+        },
+        "uiData": {
+          "posX": 256,
+          "posY": -496,
+          "width": 176,
+          "height": 205,
+          "selected": false
+        },
+        "propValues": {
+          "temperature": 0.885,
+          "maxOutputTokens": 256,
+          "immediateMode": false,
+          "hidePreview": false
+        },
+        "inputValues": {
+          "prompt": "",
+          "apiKey": ""
+        },
+        "incomingEdges": {
+          "prompt": [
+            {
+              "sourceNodeId": "text_processor_sfru1j",
+              "outputId": "text"
+            }
+          ]
+        }
+      },
+      {
+        "id": "palm_textgen_fqvlsr",
+        "nodeSpecId": "palm_textgen",
+        "customData": {
+          "previewX": 544,
+          "previewY": 48,
+          "previewWidth": 320,
+          "previewHeight": 528
+        },
+        "uiData": {
+          "posX": 256,
+          "posY": -944,
+          "width": 176,
+          "height": 205,
+          "selected": false
+        },
+        "propValues": {
+          "temperature": 0.5,
+          "maxOutputTokens": 256,
+          "immediateMode": false,
+          "hidePreview": false
+        },
+        "inputValues": {
+          "prompt": "",
+          "apiKey": ""
+        },
+        "incomingEdges": {
+          "prompt": [
+            {
+              "sourceNodeId": "text_processor_rdbw27",
+              "outputId": "text"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
