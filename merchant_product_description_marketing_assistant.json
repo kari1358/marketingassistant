@@ -3,7 +3,7 @@
     "id": "6xjc8g",
     "name": "Merchant Product Description Marketing Assistant",
     "creationTs": 1684866947213,
-    "lastModifiedTs": 1710466346083,
+    "lastModifiedTs": 1710467517540,
     "userSetData": {
       "description": "Write a product description that is on brand, optimized for Google search and other platform-specific requirements.",
       "tags": [
@@ -58,9 +58,9 @@
         "customData": {
           "initialWidth": 304,
           "initialHeight": 144,
-          "previewX": 16,
+          "previewX": 1024,
           "previewY": 16,
-          "previewWidth": 304,
+          "previewWidth": 624,
           "previewHeight": 144
         },
         "uiData": {
@@ -71,7 +71,7 @@
           "selected": false
         },
         "propValues": {
-          "text": "Handmade in LA using 50% merino wool and a proprietary waterproof technology. Keeping you warm and dry. ",
+          "text": "Lightweight, breathable materials provides next-level comfort. Classic style (goes well with any clothing). Handmade in LA using 50% merino wool and a proprietary waterproof technology. Keeping your feet warm and dry. ",
           "passwordMode": false,
           "hidePreview": false
         }
@@ -83,10 +83,10 @@
         "customData": {
           "initialWidth": 304,
           "initialHeight": 144,
-          "previewX": 16,
-          "previewY": 176,
-          "previewWidth": 304,
-          "previewHeight": 144
+          "previewX": 768,
+          "previewY": 16,
+          "previewWidth": 240,
+          "previewHeight": 128
         },
         "uiData": {
           "posX": -672,
@@ -144,10 +144,10 @@
         "customData": {
           "initialWidth": 304,
           "initialHeight": 144,
-          "previewX": 16,
-          "previewY": 564,
-          "previewWidth": 304,
-          "previewHeight": 240
+          "previewX": 368,
+          "previewY": 176,
+          "previewWidth": 640,
+          "previewHeight": 144
         },
         "uiData": {
           "posX": -672,
@@ -169,10 +169,10 @@
         "customData": {
           "initialWidth": 304,
           "initialHeight": 144,
-          "previewX": 341,
-          "previewY": 567,
-          "previewWidth": 304,
-          "previewHeight": 240
+          "previewX": 1024,
+          "previewY": 176,
+          "previewWidth": 624,
+          "previewHeight": 144
         },
         "uiData": {
           "posX": -672,
@@ -194,10 +194,10 @@
         "customData": {
           "initialWidth": 304,
           "initialHeight": 144,
-          "previewX": 16,
-          "previewY": 336,
-          "previewWidth": 304,
-          "previewHeight": 96
+          "previewX": 576,
+          "previewY": 16,
+          "previewWidth": 176,
+          "previewHeight": 128
         },
         "uiData": {
           "posX": -672,
@@ -219,10 +219,10 @@
         "customData": {
           "initialWidth": 304,
           "initialHeight": 144,
-          "previewX": 16,
-          "previewY": 448,
-          "previewWidth": 304,
-          "previewHeight": 96
+          "previewX": 368,
+          "previewY": 16,
+          "previewWidth": 192,
+          "previewHeight": 128
         },
         "uiData": {
           "posX": -672,
@@ -298,8 +298,8 @@
         "displayLabel": "Generate for Company's official website (PaLM)",
         "nodeSpecId": "palm_textgen",
         "customData": {
-          "previewX": 336,
-          "previewY": 16,
+          "previewX": 368,
+          "previewY": 336,
           "previewWidth": 304,
           "previewHeight": 528
         },
@@ -370,8 +370,8 @@
         "displayLabel": "Generate for Google Merchant Center (PaLM)",
         "nodeSpecId": "palm_textgen",
         "customData": {
-          "previewX": 655,
-          "previewY": 16,
+          "previewX": 688,
+          "previewY": 336,
           "previewWidth": 320,
           "previewHeight": 528
         },
@@ -406,10 +406,10 @@
         "displayLabel": "Copy this for Google Merchant Center",
         "nodeSpecId": "markdown_viewer",
         "customData": {
-          "previewX": 1162,
-          "previewY": 564,
-          "previewWidth": 429,
-          "previewHeight": 272
+          "previewX": 688,
+          "previewY": 880,
+          "previewWidth": 320,
+          "previewHeight": 512
         },
         "uiData": {
           "posX": 688,
@@ -439,10 +439,10 @@
         "displayLabel": "Copy this for your official website",
         "nodeSpecId": "markdown_viewer",
         "customData": {
-          "previewX": 706,
-          "previewY": 562,
-          "previewWidth": 426,
-          "previewHeight": 272
+          "previewX": 368,
+          "previewY": 880,
+          "previewWidth": 304,
+          "previewHeight": 512
         },
         "uiData": {
           "posX": 688,
@@ -472,10 +472,10 @@
         "displayLabel": "Copy this for your Facebook post",
         "nodeSpecId": "markdown_viewer",
         "customData": {
-          "previewX": 709,
-          "previewY": 852,
-          "previewWidth": 419,
-          "previewHeight": 272
+          "previewX": 1024,
+          "previewY": 880,
+          "previewWidth": 304,
+          "previewHeight": 512
         },
         "uiData": {
           "posX": 688,
@@ -505,10 +505,10 @@
         "displayLabel": "Copy this for your Facebook ad",
         "nodeSpecId": "markdown_viewer",
         "customData": {
-          "previewX": 1163,
-          "previewY": 848,
-          "previewWidth": 422,
-          "previewHeight": 272
+          "previewX": 1344,
+          "previewY": 880,
+          "previewWidth": 304,
+          "previewHeight": 512
         },
         "uiData": {
           "posX": 688,
@@ -538,8 +538,8 @@
         "displayLabel": "Generate for Facebook Posts (PaLM)",
         "nodeSpecId": "palm_textgen",
         "customData": {
-          "previewX": 992,
-          "previewY": 16,
+          "previewX": 1024,
+          "previewY": 336,
           "previewWidth": 304,
           "previewHeight": 528
         },
@@ -574,8 +574,8 @@
         "displayLabel": "Generate for Facebook Ads (PaLM)",
         "nodeSpecId": "palm_textgen",
         "customData": {
-          "previewX": 1312,
-          "previewY": 15,
+          "previewX": 1344,
+          "previewY": 336,
           "previewWidth": 304,
           "previewHeight": 528
         },
@@ -639,6 +639,81 @@
               "outputId": "text"
             }
           ]
+        }
+      },
+      {
+        "id": "input_text_qscwyp",
+        "displayLabel": "Step 1",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 32,
+          "previewY": 16,
+          "previewWidth": 304,
+          "previewHeight": 144
+        },
+        "uiData": {
+          "posX": -1312,
+          "posY": -928,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Start filling/changing the green boxes -->",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_ch2m3r",
+        "displayLabel": "Step 2",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 32,
+          "previewY": 336,
+          "previewWidth": 304,
+          "previewHeight": 144
+        },
+        "uiData": {
+          "posX": -1312,
+          "posY": -782,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Go to https://aistudio.google.com/\n\nLog in, generate an API key, and copy and paste it to all the \"API key\" fields in the red blocks. -->\n\nClick the \"Fetch\" buttons!",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_fodg7j",
+        "displayLabel": "Step 3",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 16,
+          "previewY": 880,
+          "previewWidth": 304,
+          "previewHeight": 144
+        },
+        "uiData": {
+          "posX": -1312,
+          "posY": -636,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Get the results you are looking for here (keep scrolling to the right to see all the blue blocks!) -->",
+          "passwordMode": false,
+          "hidePreview": false
         }
       }
     ]
