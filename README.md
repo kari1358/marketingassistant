@@ -15,7 +15,7 @@ When a new product is about to launch, preparing product descriptions can be a s
 An ML-powered site where users can generate ready-to-go product descriptions for multiple platforms at once, all within minutes. 
 
 Step-by-step guidance:
-- Go to [merchant marketing assistant](https://visualblocks.withgoogle.com/#/demo?project_json=https://raw.githubusercontent.com/kari1358/marketingassistant/main/merchant_product_description_marketing_assistant.json)
+- Go to [merchant marketing assistant](https://visualblocks.withgoogle.com/#/demo?project_json=https://raw.githubusercontent.com/kari1358/marketingassistant/main/ml_powered_marketing_assistant_generate_the_product_descriptions_for_your_new_products_in_minutes.json)
 - Type in the type of product (e.g., shoes, hats, photo frames, etc.).
 - Type in the main description of the new product (key features, materials, etc.).
 - Copy and paste in two examples of product descriptions that are on-brand.
