@@ -1,9 +1,9 @@
 {
   "project": {
-    "id": "6xjc8g",
+    "id": "5x16hf",
     "name": "Merchant Product Description Marketing Assistant",
     "creationTs": 1684866947213,
-    "lastModifiedTs": 1710467517540,
+    "lastModifiedTs": 1710562042291,
     "userSetData": {
       "description": "Write a product description that is on brand, optimized for Google search and other platform-specific requirements.",
       "tags": [
@@ -23,7 +23,7 @@
           "initialHeight": 288,
           "previewX": 368,
           "previewY": 240,
-          "previewWidth": 144,
+          "previewWidth": 592,
           "previewHeight": 160
         },
         "uiData": {
@@ -36,7 +36,7 @@
         "propValues": {
           "mode": "format",
           "separator": "\\n",
-          "formatString": "{1}\nThis product description will be used on the company's official website.\n\nMake sure it's optimized for Google Search. Use Google's suggestions to determine the length of the description.",
+          "formatString": "{1}\nWrite the product description for the company's official website. Use {2} and {3} as references. Make sure the style, format, and tone respect the style reference.\n\nMake sure it's optimized for Google Search. Use Google's suggestions to determine the length of the description.",
           "hidePreview": true
         },
         "inputValues": {
@@ -47,247 +47,13 @@
             {
               "sourceNodeId": "text_processor_qkas03",
               "outputId": "text"
-            }
-          ]
-        }
-      },
-      {
-        "id": "input_text_oj9ghe",
-        "displayLabel": "Main Product Input",
-        "nodeSpecId": "input_text",
-        "customData": {
-          "initialWidth": 304,
-          "initialHeight": 144,
-          "previewX": 1024,
-          "previewY": 16,
-          "previewWidth": 624,
-          "previewHeight": 144
-        },
-        "uiData": {
-          "posX": -672,
-          "posY": -720,
-          "width": 179.1162109375,
-          "height": 130,
-          "selected": false
-        },
-        "propValues": {
-          "text": "Lightweight, breathable materials provides next-level comfort. Classic style (goes well with any clothing). Handmade in LA using 50% merino wool and a proprietary waterproof technology. Keeping your feet warm and dry. ",
-          "passwordMode": false,
-          "hidePreview": false
-        }
-      },
-      {
-        "id": "input_text_e92jxp",
-        "displayLabel": "Target Customer",
-        "nodeSpecId": "input_text",
-        "customData": {
-          "initialWidth": 304,
-          "initialHeight": 144,
-          "previewX": 768,
-          "previewY": 16,
-          "previewWidth": 240,
-          "previewHeight": 128
-        },
-        "uiData": {
-          "posX": -672,
-          "posY": -268,
-          "width": 176,
-          "height": 130,
-          "selected": false
-        },
-        "propValues": {
-          "text": "male teenagers in the US",
-          "passwordMode": false,
-          "hidePreview": false
-        }
-      },
-      {
-        "id": "text_processor_sfru1j",
-        "nodeSpecId": "text_processor",
-        "customData": {
-          "initialWidth": 304,
-          "initialHeight": 288,
-          "previewX": 368,
-          "previewY": 416,
-          "previewWidth": 363,
-          "previewHeight": 160
-        },
-        "uiData": {
-          "posX": 16,
-          "posY": -592,
-          "width": 176,
-          "height": 105,
-          "selected": false
-        },
-        "propValues": {
-          "mode": "format",
-          "separator": "\\n",
-          "formatString": "{1}\n\nThis product description will be used for a Facebook post. Write it as if you are telling your best friends about how good the product is. Be excited!\n\nMake sure it's optimized for Facebook's algorithm. Keep the lengths of your posts to a maximum of 120 characters.\n\nAssuming this is a regular post, not an ad. ",
-          "hidePreview": true
-        },
-        "inputValues": {
-          "texts": []
-        },
-        "incomingEdges": {
-          "texts": [
+            },
             {
-              "sourceNodeId": "text_processor_qkas03",
-              "outputId": "text"
-            }
-          ]
-        }
-      },
-      {
-        "id": "input_text_z1dle7",
-        "displayLabel": "Reference A",
-        "nodeSpecId": "input_text",
-        "customData": {
-          "initialWidth": 304,
-          "initialHeight": 144,
-          "previewX": 368,
-          "previewY": 176,
-          "previewWidth": 640,
-          "previewHeight": 144
-        },
-        "uiData": {
-          "posX": -672,
-          "posY": -576,
-          "width": 176,
-          "height": 130,
-          "selected": false
-        },
-        "propValues": {
-          "text": "The radiance lives on in the Nike Air Force 1 ’07, the b-ball OG that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.\n\nShown: White/White\nStyle: CW2288-111",
-          "passwordMode": false,
-          "hidePreview": false
-        }
-      },
-      {
-        "id": "input_text_xn5s2i",
-        "displayLabel": "Reference B",
-        "nodeSpecId": "input_text",
-        "customData": {
-          "initialWidth": 304,
-          "initialHeight": 144,
-          "previewX": 1024,
-          "previewY": 176,
-          "previewWidth": 624,
-          "previewHeight": 144
-        },
-        "uiData": {
-          "posX": -672,
-          "posY": -414,
-          "width": 176,
-          "height": 130,
-          "selected": false
-        },
-        "propValues": {
-          "text": "Taking inspiration from the human body and running DNA, the Nike Air Max 95 Essential mixes unbelievable comfort with head turning style. The iconic side panels represent muscles while visible Nike Air in the heel and forefoot cushions your every step.\n\nShown: White/Grey Fog/White\nStyle: CT1268-100",
-          "passwordMode": false,
-          "hidePreview": false
-        }
-      },
-      {
-        "id": "input_text_lw5zub",
-        "displayLabel": "Product Type",
-        "nodeSpecId": "input_text",
-        "customData": {
-          "initialWidth": 304,
-          "initialHeight": 144,
-          "previewX": 576,
-          "previewY": 16,
-          "previewWidth": 176,
-          "previewHeight": 128
-        },
-        "uiData": {
-          "posX": -672,
-          "posY": -880,
-          "width": 176,
-          "height": 130,
-          "selected": false
-        },
-        "propValues": {
-          "text": "shoes",
-          "passwordMode": false,
-          "hidePreview": false
-        }
-      },
-      {
-        "id": "input_text_6s3s9p",
-        "displayLabel": "Product Name",
-        "nodeSpecId": "input_text",
-        "customData": {
-          "initialWidth": 304,
-          "initialHeight": 144,
-          "previewX": 368,
-          "previewY": 16,
-          "previewWidth": 192,
-          "previewHeight": 128
-        },
-        "uiData": {
-          "posX": -672,
-          "posY": -1040,
-          "width": 176,
-          "height": 130,
-          "selected": false
-        },
-        "propValues": {
-          "text": "Gitfunction 626",
-          "passwordMode": false,
-          "hidePreview": false
-        }
-      },
-      {
-        "id": "text_processor_qkas03",
-        "nodeSpecId": "text_processor",
-        "customData": {
-          "initialWidth": 304,
-          "initialHeight": 288,
-          "previewX": 48,
-          "previewY": 656,
-          "previewWidth": 304,
-          "previewHeight": 160
-        },
-        "uiData": {
-          "posX": -224,
-          "posY": -736,
-          "width": 176,
-          "height": 105,
-          "selected": false
-        },
-        "propValues": {
-          "mode": "format",
-          "separator": "\\n",
-          "formatString": "Write a product description to incentivize more {5} to buy this {6}, which is under the {1} product category. Use the following as the main context: {2} \n\nUse the two following pieces as a style reference: \"{3}\" and \"{4}\" \n\nMake sure the style, format, and tone respect the style reference.",
-          "hidePreview": true
-        },
-        "inputValues": {
-          "texts": []
-        },
-        "incomingEdges": {
-          "texts": [
-            {
-              "sourceNodeId": "input_text_lw5zub",
+              "sourceNodeId": "input_text_slrfum",
               "outputId": "text"
             },
             {
-              "sourceNodeId": "input_text_oj9ghe",
-              "outputId": "text"
-            },
-            {
-              "sourceNodeId": "input_text_z1dle7",
-              "outputId": "text"
-            },
-            {
-              "sourceNodeId": "input_text_xn5s2i",
-              "outputId": "text"
-            },
-            {
-              "sourceNodeId": "input_text_e92jxp",
-              "outputId": "text"
-            },
-            {
-              "sourceNodeId": "input_text_6s3s9p",
+              "sourceNodeId": "input_text_7n9jn9",
               "outputId": "text"
             }
           ]
@@ -299,9 +65,9 @@
         "nodeSpecId": "palm_textgen",
         "customData": {
           "previewX": 368,
-          "previewY": 336,
+          "previewY": 640,
           "previewWidth": 304,
-          "previewHeight": 528
+          "previewHeight": 160
         },
         "uiData": {
           "posX": 256,
@@ -311,7 +77,7 @@
           "selected": false
         },
         "propValues": {
-          "temperature": 0.5,
+          "temperature": 0.7,
           "maxOutputTokens": 335,
           "immediateMode": false,
           "hidePreview": false
@@ -330,50 +96,14 @@
         }
       },
       {
-        "id": "text_processor_rdbw27",
-        "nodeSpecId": "text_processor",
-        "customData": {
-          "initialWidth": 304,
-          "initialHeight": 288,
-          "previewX": 368,
-          "previewY": 32,
-          "previewWidth": 674,
-          "previewHeight": 340
-        },
-        "uiData": {
-          "posX": 16,
-          "posY": -848,
-          "width": 176,
-          "height": 105,
-          "selected": false
-        },
-        "propValues": {
-          "mode": "format",
-          "separator": "\\n",
-          "formatString": "{1}\n\nWrite the product description for Google Merchant Center. \n\nMake sure it follows Google's guidelines and the community's suggestions. \nFormat\nFollow these formatting guidelines to make sure Google understands the data you're submitting.\n\nLearn when and how to submit your product data in English\nType\tString (Unicode characters, Recommend: ASCII only)\nLimits\t1–5,000 characters\nRepeated field\tNo\nSchema.org property\n(What's this?)\tProduct.description, Type: Text\nFile format\tExample value\nText (TSV)\tGoogle Chromecast was designed to discreetly connect to your TV. Wirelessly stream and mirror content. Integrated HDMI Connector.\nXML (Feeds)\t<g:description>Google Chromecast was designed to discreetly connect to your TV. Wirelessly stream and mirror content. Integrated HDMI Connector.</g:description>\nTo format your data for Content API, go to the Content API for Shopping resource.\n\nNote: To ensure that this product data attribute gets recognized by our system correctly, remember to submit your data feed file in a format that we support.\n\nMinimum requirements\nThese are the requirements you'll need to meet to show your product. If you don't follow these requirements, we'll disapprove your product and let you know in your Merchant Center account.\n\nNote: If your description doesn't fit within the character limit, Google will truncate it to fit. You'll receive a warning indicating that the description has been truncated.\nDescribe only the product itself. Don't describe other aspects like details about compatible products, accessories, or other similar products available. Don't provide your business’s history or policies.\nUse professional and grammatically correct language. Correct grammar is easier to understand and gives you a more professional appearance, which can lead to more clicks. Also avoid gimmicky ways of drawing attention such as all caps, symbols, and promotional text. Learn more about the editorial & professional requirements.\nDon’t use words from foreign languages, unless they’re well understood such as a product with a foreign name or title.\nFor example, “sushi” is a word well understood outside of Japan.\nWrite foreign words using the alphabet of your target language. For example, avoid Japanese characters when targeting the United States. Letters with accents, like “Les Clés\" are allowed.\nDon’t use foreign characters for gimmicky purposes. This technique is common in spam and untrustworthy product listings. For example: (ಠ_ಠ)\nUse XML entities or escaped characters instead of symbols. If you’re submitting your product data in XML or JSON, and you need to include symbols, make sure to follow the XML or JSON specification. For XML, use XML entities such as &quot;. For JSON, use escape characters such as \\\". If you automatically encode your description, be careful not to encode it twice.\nDon’t include comparisons or details about other products. For example, \"even better than X.\" Let customers research other products on their own.\nDon’t include references to categorization systems. For example, don’t include \"Toys & Games and then Toys and then Dolls, Playsets & Toy Figures and then Dolls.\" Include this information using the Google product category [google_product_category] or product type [product_type] attributes.\nDon’t include links to your store or other websites. Include nothing but a link to your product's landing page with the link [link] attribute.\nDon’t use capital letters for emphasis. Capitalized text is common in spam and untrustworthy product listing. Use capitalization when it’s appropriate, including for abbreviations, phone numbers, countries, and currency. For example, ADHD, UNICEF, 1-555-CALL-NOW, UK, and USD.\nDon’t include promotional text such as price, sale price, sale dates, shipping, delivery date, other time-related information, or your company’s name. Include this information with the other attributes such as sale price [sale_price] or shipping [shipping].\n\nSubmit a description for each product. Products that don’t include a value for the description attribute will receive a warning and may experience limited performance. Similar products that include a description may be prioritized.\nBest practices\nThese best practices can help you go beyond the basic requirements to optimize your product data for performance.\n\nBe specific and accurate. The more specific you are in your description, the easier it is for customers to identify the product they're searching for.\nList the most important details in the first 160 - 500 characters. You can include up to 5,000 characters, but customers must click to view product details to see the longer description.\nInclude your product’s most relevant features and visual attributes. Examples of types of information to include:\nSize\nMaterial\nIntended age range\nSpecial features\nTechnical specifications\nShape\nPattern\nTexture\nDesign. For example, customers can search for very specific visual terms like “retractable ballpoint pens.\"\nVariants. List product defining details like color, size, age group, pattern, flavor, or material.\nAdditional guidelines\nReview each section closely to determine if the requirements apply to your country or product. If you don't follow requirements that apply to you, we'll disapprove your product and let you know in your Merchant Center account.\n\nMake sure it's optimized for Google Search. ",
-          "hidePreview": true
-        },
-        "inputValues": {
-          "texts": []
-        },
-        "incomingEdges": {
-          "texts": [
-            {
-              "sourceNodeId": "text_processor_qkas03",
-              "outputId": "text"
-            }
-          ]
-        }
-      },
-      {
         "id": "palm_textgen_fqvlsr",
         "displayLabel": "Generate for Google Merchant Center (PaLM)",
         "nodeSpecId": "palm_textgen",
         "customData": {
           "previewX": 688,
-          "previewY": 336,
+          "previewY": 640,
           "previewWidth": 320,
-          "previewHeight": 528
+          "previewHeight": 160
         },
         "uiData": {
           "posX": 256,
@@ -383,7 +113,7 @@
           "selected": false
         },
         "propValues": {
-          "temperature": 0.5,
+          "temperature": 0.7,
           "maxOutputTokens": 256,
           "immediateMode": false,
           "hidePreview": false
@@ -407,7 +137,7 @@
         "nodeSpecId": "markdown_viewer",
         "customData": {
           "previewX": 688,
-          "previewY": 880,
+          "previewY": 832,
           "previewWidth": 320,
           "previewHeight": 512
         },
@@ -440,7 +170,7 @@
         "nodeSpecId": "markdown_viewer",
         "customData": {
           "previewX": 368,
-          "previewY": 880,
+          "previewY": 832,
           "previewWidth": 304,
           "previewHeight": 512
         },
@@ -473,7 +203,7 @@
         "nodeSpecId": "markdown_viewer",
         "customData": {
           "previewX": 1024,
-          "previewY": 880,
+          "previewY": 832,
           "previewWidth": 304,
           "previewHeight": 512
         },
@@ -506,7 +236,7 @@
         "nodeSpecId": "markdown_viewer",
         "customData": {
           "previewX": 1344,
-          "previewY": 880,
+          "previewY": 832,
           "previewWidth": 304,
           "previewHeight": 512
         },
@@ -539,9 +269,9 @@
         "nodeSpecId": "palm_textgen",
         "customData": {
           "previewX": 1024,
-          "previewY": 336,
+          "previewY": 640,
           "previewWidth": 304,
-          "previewHeight": 528
+          "previewHeight": 160
         },
         "uiData": {
           "posX": 256,
@@ -551,7 +281,7 @@
           "selected": false
         },
         "propValues": {
-          "temperature": 0.9,
+          "temperature": 0.7000000000000001,
           "maxOutputTokens": 256,
           "immediateMode": false,
           "hidePreview": false
@@ -575,19 +305,19 @@
         "nodeSpecId": "palm_textgen",
         "customData": {
           "previewX": 1344,
-          "previewY": 336,
+          "previewY": 640,
           "previewWidth": 304,
-          "previewHeight": 528
+          "previewHeight": 160
         },
         "uiData": {
           "posX": 256,
           "posY": -272,
           "width": 352,
           "height": 205,
-          "selected": true
+          "selected": false
         },
         "propValues": {
-          "temperature": 0.7846153846153846,
+          "temperature": 0.7,
           "maxOutputTokens": 256,
           "immediateMode": false,
           "hidePreview": false
@@ -600,42 +330,6 @@
           "prompt": [
             {
               "sourceNodeId": "text_processor_ilfn5l",
-              "outputId": "text"
-            }
-          ]
-        }
-      },
-      {
-        "id": "text_processor_ilfn5l",
-        "nodeSpecId": "text_processor",
-        "customData": {
-          "initialWidth": 304,
-          "initialHeight": 288,
-          "previewX": 368,
-          "previewY": 592,
-          "previewWidth": 469,
-          "previewHeight": 160
-        },
-        "uiData": {
-          "posX": 16,
-          "posY": -448,
-          "width": 176,
-          "height": 105,
-          "selected": false
-        },
-        "propValues": {
-          "mode": "format",
-          "separator": "\\n",
-          "formatString": "{1}\n\nThis product description will be used for a Facebook ad. Keep it short and straightforward. Facebook recommends 125 characters for the primary text field in most ad placements, with 40 characters for the headline and 25 characters for the description. Use active verbs, and highlight the product's features and benefits. Call to actions needs to end with \"!\".\n\nMake sure it's optimized for Facebook's algorithm. Assuming this is an ad targeting whom this product is designed for, not just a regular post.",
-          "hidePreview": true
-        },
-        "inputValues": {
-          "texts": []
-        },
-        "incomingEdges": {
-          "texts": [
-            {
-              "sourceNodeId": "text_processor_qkas03",
               "outputId": "text"
             }
           ]
@@ -673,8 +367,8 @@
         "customData": {
           "initialWidth": 304,
           "initialHeight": 144,
-          "previewX": 32,
-          "previewY": 336,
+          "previewX": 16,
+          "previewY": 640,
           "previewWidth": 304,
           "previewHeight": 144
         },
@@ -692,6 +386,486 @@
         }
       },
       {
+        "id": "input_text_6s3s9p",
+        "displayLabel": "Product Name",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 368,
+          "previewY": 16,
+          "previewWidth": 192,
+          "previewHeight": 144
+        },
+        "uiData": {
+          "posX": -1040,
+          "posY": -1008,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Gitfunction 626",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_oj9ghe",
+        "displayLabel": "Main Product Input",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 1024,
+          "previewY": 16,
+          "previewWidth": 624,
+          "previewHeight": 144
+        },
+        "uiData": {
+          "posX": -1040,
+          "posY": -560,
+          "width": 179.1162109375,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Lightweight, breathable materials provides next-level comfort. Classic style (goes well with any clothing). Handmade in LA using 50% merino wool and a proprietary waterproof technology. Keeping your feet warm and dry. ",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_lw5zub",
+        "displayLabel": "Product Type",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 576,
+          "previewY": 16,
+          "previewWidth": 176,
+          "previewHeight": 144
+        },
+        "uiData": {
+          "posX": -1040,
+          "posY": -720,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "shoes",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_e92jxp",
+        "displayLabel": "Target Customer",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 768,
+          "previewY": 16,
+          "previewWidth": 240,
+          "previewHeight": 144
+        },
+        "uiData": {
+          "posX": -1040,
+          "posY": -864,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "teenagers in the US",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "text_processor_qkas03",
+        "nodeSpecId": "text_processor",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 288,
+          "previewX": 48,
+          "previewY": 656,
+          "previewWidth": 304,
+          "previewHeight": 160
+        },
+        "uiData": {
+          "posX": -224,
+          "posY": -736,
+          "width": 176,
+          "height": 105,
+          "selected": false
+        },
+        "propValues": {
+          "mode": "format",
+          "separator": "\\n",
+          "formatString": "Write a product description to incentivize more {2} to buy this {1}, which is under the {3} product category. Use the following as the main context: {4} ",
+          "hidePreview": true
+        },
+        "inputValues": {
+          "texts": []
+        },
+        "incomingEdges": {
+          "texts": [
+            {
+              "sourceNodeId": "input_text_6s3s9p",
+              "outputId": "text"
+            },
+            {
+              "sourceNodeId": "input_text_e92jxp",
+              "outputId": "text"
+            },
+            {
+              "sourceNodeId": "input_text_lw5zub",
+              "outputId": "text"
+            },
+            {
+              "sourceNodeId": "input_text_oj9ghe",
+              "outputId": "text"
+            }
+          ]
+        }
+      },
+      {
+        "id": "text_processor_rdbw27",
+        "nodeSpecId": "text_processor",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 288,
+          "previewX": 368,
+          "previewY": 32,
+          "previewWidth": 674,
+          "previewHeight": 340
+        },
+        "uiData": {
+          "posX": 16,
+          "posY": -848,
+          "width": 176,
+          "height": 105,
+          "selected": false
+        },
+        "propValues": {
+          "mode": "format",
+          "separator": "\\n",
+          "formatString": "{1}\n\nWrite the product description for Google Merchant Center. Use {2} and {3} as references. Make sure the style, format, and tone respect the style reference.\n\nMake sure it follows Google's guidelines and the community's suggestions. \nFormat\nFollow these formatting guidelines to make sure Google understands the data you're submitting.\n\nLearn when and how to submit your product data in English\nType\tString (Unicode characters, Recommend: ASCII only)\nLimits\t1–5,000 characters\nRepeated field\tNo\nSchema.org property\n(What's this?)\tProduct.description, Type: Text\nFile format\tExample value\nText (TSV)\tGoogle Chromecast was designed to discreetly connect to your TV. Wirelessly stream and mirror content. Integrated HDMI Connector.\nXML (Feeds)\t<g:description>Google Chromecast was designed to discreetly connect to your TV. Wirelessly stream and mirror content. Integrated HDMI Connector.</g:description>\nTo format your data for Content API, go to the Content API for Shopping resource.\n\nNote: To ensure that this product data attribute gets recognized by our system correctly, remember to submit your data feed file in a format that we support.\n\nMinimum requirements\nThese are the requirements you'll need to meet to show your product. If you don't follow these requirements, we'll disapprove your product and let you know in your Merchant Center account.\n\nNote: If your description doesn't fit within the character limit, Google will truncate it to fit. You'll receive a warning indicating that the description has been truncated.\nDescribe only the product itself. Don't describe other aspects like details about compatible products, accessories, or other similar products available. Don't provide your business’s history or policies.\nUse professional and grammatically correct language. Correct grammar is easier to understand and gives you a more professional appearance, which can lead to more clicks. Also avoid gimmicky ways of drawing attention such as all caps, symbols, and promotional text. Learn more about the editorial & professional requirements.\nDon’t use words from foreign languages, unless they’re well understood such as a product with a foreign name or title.\nFor example, “sushi” is a word well understood outside of Japan.\nWrite foreign words using the alphabet of your target language. For example, avoid Japanese characters when targeting the United States. Letters with accents, like “Les Clés\" are allowed.\nDon’t use foreign characters for gimmicky purposes. This technique is common in spam and untrustworthy product listings. For example: (ಠ_ಠ)\nUse XML entities or escaped characters instead of symbols. If you’re submitting your product data in XML or JSON, and you need to include symbols, make sure to follow the XML or JSON specification. For XML, use XML entities such as &quot;. For JSON, use escape characters such as \\\". If you automatically encode your description, be careful not to encode it twice.\nDon’t include comparisons or details about other products. For example, \"even better than X.\" Let customers research other products on their own.\nDon’t include references to categorization systems. For example, don’t include \"Toys & Games and then Toys and then Dolls, Playsets & Toy Figures and then Dolls.\" Include this information using the Google product category [google_product_category] or product type [product_type] attributes.\nDon’t include links to your store or other websites. Include nothing but a link to your product's landing page with the link [link] attribute.\nDon’t use capital letters for emphasis. Capitalized text is common in spam and untrustworthy product listing. Use capitalization when it’s appropriate, including for abbreviations, phone numbers, countries, and currency. For example, ADHD, UNICEF, 1-555-CALL-NOW, UK, and USD.\nDon’t include promotional text such as price, sale price, sale dates, shipping, delivery date, other time-related information, or your company’s name. Include this information with the other attributes such as sale price [sale_price] or shipping [shipping].\n\nSubmit a description for each product. Products that don’t include a value for the description attribute will receive a warning and may experience limited performance. Similar products that include a description may be prioritized.\nBest practices\nThese best practices can help you go beyond the basic requirements to optimize your product data for performance.\n\nBe specific and accurate. The more specific you are in your description, the easier it is for customers to identify the product they're searching for.\nList the most important details in the first 160 - 500 characters. You can include up to 5,000 characters, but customers must click to view product details to see the longer description.\nInclude your product’s most relevant features and visual attributes. Examples of types of information to include:\nSize\nMaterial\nIntended age range\nSpecial features\nTechnical specifications\nShape\nPattern\nTexture\nDesign. For example, customers can search for very specific visual terms like “retractable ballpoint pens.\"\nVariants. List product defining details like color, size, age group, pattern, flavor, or material.\nAdditional guidelines\nReview each section closely to determine if the requirements apply to your country or product. If you don't follow requirements that apply to you, we'll disapprove your product and let you know in your Merchant Center account.\n\nMake sure it's optimized for Google Search. ",
+          "hidePreview": true
+        },
+        "inputValues": {
+          "texts": []
+        },
+        "incomingEdges": {
+          "texts": [
+            {
+              "sourceNodeId": "text_processor_qkas03",
+              "outputId": "text"
+            },
+            {
+              "sourceNodeId": "input_text_z1dle7",
+              "outputId": "text"
+            },
+            {
+              "sourceNodeId": "input_text_xn5s2i",
+              "outputId": "text"
+            }
+          ]
+        }
+      },
+      {
+        "id": "text_processor_ilfn5l",
+        "nodeSpecId": "text_processor",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 288,
+          "previewX": 368,
+          "previewY": 592,
+          "previewWidth": 469,
+          "previewHeight": 160
+        },
+        "uiData": {
+          "posX": 16,
+          "posY": -448,
+          "width": 176,
+          "height": 105,
+          "selected": false
+        },
+        "propValues": {
+          "mode": "format",
+          "separator": "\\n",
+          "formatString": "{1}\nWrite the product description for a Facebook ad. Use {2} and {3} as references. Make sure the style, format, and tone respect the style reference.\n\nKeep it short and straightforward. Facebook recommends 125 characters for the primary text field in most ad placements, with 40 characters for the headline and 25 characters for the description. Use active verbs, and highlight the product's features and benefits. The call to action needs to end with \"!\".\n\nMake sure it's optimized for Facebook's algorithm. Assuming this is an ad targeting whom this product is designed for, not just a regular post.",
+          "hidePreview": true
+        },
+        "inputValues": {
+          "texts": []
+        },
+        "incomingEdges": {
+          "texts": [
+            {
+              "sourceNodeId": "text_processor_qkas03",
+              "outputId": "text"
+            },
+            {
+              "sourceNodeId": "input_text_dzqx7a",
+              "outputId": "text"
+            },
+            {
+              "sourceNodeId": "input_text_pnqex2",
+              "outputId": "text"
+            }
+          ]
+        }
+      },
+      {
+        "id": "input_text_z1dle7",
+        "displayLabel": "Google Merchant Center, Reference A",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 368,
+          "previewY": 192,
+          "previewWidth": 304,
+          "previewHeight": 208
+        },
+        "uiData": {
+          "posX": -656,
+          "posY": -544,
+          "width": 291.126953125,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Whether you're a hooper, a skater or you just love kicks, the Nike Dunk Low has been a fave among athletes for decades. Durable synthetic leather gives you a classic '80s feel while the rubber sole offers grip and traction. Benefits Upper ages to soft perfection and features durable construction reminiscent of '80s b-ball. Low-cut, padded collar looks sleek and feels comfortable. Foam midsole offers lightweight, responsive cushioning. Rubber outsole with classic hoops pivot circle adds durability, traction and heritage style. Product Details Classic laces Perforations on toe Reflective details Not intended for use as Personal Protective Equipment (PPE) Nike Dunk Born from a series of mash-ups, hacks and tight deadlines, the Nike Dunk landed on college basketball courts during the '85–'86 season. While the original College Colors designs helped you stay true to your school, the Dunk didn't prove to be popular. But it was this humble sneaker's lack of popularity—and flat, grippy soles—that helped it jump the rails to captivate skateboarders. Decades later, this everyday favorite continues to be snatched up in countless colorways, proving its influence is undeniable.",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_xn5s2i",
+        "displayLabel": "Google Merchant Center, Reference B",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 368,
+          "previewY": 416,
+          "previewWidth": 304,
+          "previewHeight": 208
+        },
+        "uiData": {
+          "posX": -656,
+          "posY": -400,
+          "width": 291.126953125,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Rubber sole The Nike Air Force 1 Low PS “White on White” is the preschool version of the monochromatic white colorway of the low-top lifestyle shoe One of the most popular shoes offered by Nike, the Air Force 1 is a vintage basketball sneaker that debuted in the 1980s and has since become an everyday casual staple The entire upper is covered in white leather, including the perforated toe, mid-panel, heel, and Swoosh The overlaid panels also appear in white leather.Dual “Nike” and Swoosh branding can be found on the heel Dual “Nike” and Swoosh branding can be found on the heel The Nike Air Force 1 Low PS “White on White” is the preschool version of the monochromatic white colorway of the low-top lifestyle shoe. One of the most popular shoes offered by Nike, the Air Force 1 is a vintage basketball sneaker that debuted in the 1980s and has since become an everyday casual staple. The entire upper is covered in white leather, including the perforated toe, mid-panel, heel, and Swoosh. The overlaid panels also appear in white leather. Dual “Nike” and Swoosh branding can be found on the heel. Additional “Air Force” detailing graces the white nylon tongue tag. A chunky white rubber midsole with tonal “Nike” on the heel completes the look.",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_slrfum",
+        "displayLabel": "Company's Official Website, Reference A",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 688,
+          "previewY": 192,
+          "previewWidth": 320,
+          "previewHeight": 208
+        },
+        "uiData": {
+          "posX": -656,
+          "posY": -240,
+          "width": 307.78955078125,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Taking inspiration from the human body and running DNA, the Nike Air Max 95 Essential mixes unbelievable comfort with head turning style. The iconic side panels represent muscles while visible Nike Air in the heel and forefoot cushions your every step.\n\nShown: White/Grey Fog/White\nStyle: CT1268-100",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_7n9jn9",
+        "displayLabel": "Company's Official Website, Reference B",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 688,
+          "previewY": 416,
+          "previewWidth": 320,
+          "previewHeight": 208
+        },
+        "uiData": {
+          "posX": -656,
+          "posY": -96,
+          "width": 307.78955078125,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Taking inspiration from the human body and running DNA, the Nike Air Max 95 Essential mixes unbelievable comfort with head turning style. The iconic side panels represent muscles while visible Nike Air in the heel and forefoot cushions your every step.\n\nShown: White/Grey Fog/White\nStyle: CT1268-100",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "text_processor_sfru1j",
+        "nodeSpecId": "text_processor",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 288,
+          "previewX": 368,
+          "previewY": 416,
+          "previewWidth": 363,
+          "previewHeight": 160
+        },
+        "uiData": {
+          "posX": 16,
+          "posY": -592,
+          "width": 176,
+          "height": 105,
+          "selected": false
+        },
+        "propValues": {
+          "mode": "format",
+          "separator": "\\n",
+          "formatString": "{1}\nWrite the product description for a Facebook post. Use {2} and {3} as references. Make sure the style, format, and tone respect the style reference.\n\nMake sure it's optimized for Facebook's algorithm. Keep the lengths of your posts to a maximum of 120 characters.\n\nAssuming this is a regular post, not an ad. ",
+          "hidePreview": true
+        },
+        "inputValues": {
+          "texts": []
+        },
+        "incomingEdges": {
+          "texts": [
+            {
+              "sourceNodeId": "text_processor_qkas03",
+              "outputId": "text"
+            },
+            {
+              "sourceNodeId": "input_text_439068",
+              "outputId": "text"
+            },
+            {
+              "sourceNodeId": "input_text_j2ihot",
+              "outputId": "text"
+            }
+          ]
+        }
+      },
+      {
+        "id": "input_text_j2ihot",
+        "displayLabel": "Facebook Post, Reference B",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 1024,
+          "previewY": 416,
+          "previewWidth": 304,
+          "previewHeight": 208
+        },
+        "uiData": {
+          "posX": -288,
+          "posY": -96,
+          "width": 236.20068359375,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "The elements are no longer an excuse. #justdoit\nDriven from insights and engineered to the exact specifications of championship athletes in the Nike Sports Research Lab, The Hyperwarm Collection eliminates distractions from the cold, so you can train as long and as hard as you want. Don’t let the weather get in your way.",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_pnqex2",
+        "displayLabel": "Facebook Ad, Reference B",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 1344,
+          "previewY": 416,
+          "previewWidth": 304,
+          "previewHeight": 208
+        },
+        "uiData": {
+          "posX": -224,
+          "posY": 208,
+          "width": 226.0888671875,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Dominate on and off the court in your favorite Nike NBA jerseys.",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_dzqx7a",
+        "displayLabel": "Facebook Ad, Reference A",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 1344,
+          "previewY": 192,
+          "previewWidth": 304,
+          "previewHeight": 208
+        },
+        "uiData": {
+          "posX": -272,
+          "posY": 64,
+          "width": 226.0888671875,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "The first day back at school is always the most exciting, and we’ve got everything you’ll need for it.",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_439068",
+        "displayLabel": "Facebook Post, Reference A",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 1024,
+          "previewY": 192,
+          "previewWidth": 304,
+          "previewHeight": 208
+        },
+        "uiData": {
+          "posX": -320,
+          "posY": -240,
+          "width": 236.20068359375,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Control the midfield, whatever the weather, with the new Nike All Conditions Control CTR360 Maestri III. Available Sunday.",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
         "id": "input_text_fodg7j",
         "displayLabel": "Step 3",
         "nodeSpecId": "input_text",
@@ -699,7 +873,7 @@
           "initialWidth": 304,
           "initialHeight": 144,
           "previewX": 16,
-          "previewY": 880,
+          "previewY": 832,
           "previewWidth": 304,
           "previewHeight": 144
         },
@@ -712,6 +886,31 @@
         },
         "propValues": {
           "text": "Get the results you are looking for here (keep scrolling to the right to see all the blue blocks!) -->",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_6qd0nd",
+        "displayLabel": "Notes",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 96,
+          "previewY": 288,
+          "previewWidth": 224,
+          "previewHeight": 176
+        },
+        "uiData": {
+          "posX": -1312,
+          "posY": -490,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Provide two references for each platform you would be sharing the description to                               \n-->\n\n-->\n    ",
           "passwordMode": false,
           "hidePreview": false
         }
