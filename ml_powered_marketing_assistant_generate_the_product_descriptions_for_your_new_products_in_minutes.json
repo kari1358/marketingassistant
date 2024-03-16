@@ -1,9 +1,9 @@
 {
   "project": {
-    "id": "g0g1wq",
+    "id": "96qouk",
     "name": "ML-powered Marketing Assistant: Generate the product descriptions for your new products in minutes",
     "creationTs": 1684866947213,
-    "lastModifiedTs": 1710570563312,
+    "lastModifiedTs": 1710571492074,
     "userSetData": {
       "description": "Generate product descriptions that are on brand & optimized for Google search and other platform-specific requirements.",
       "tags": [
@@ -21,7 +21,7 @@
         "nodeSpecId": "markdown_viewer",
         "customData": {
           "previewX": 752,
-          "previewY": 832,
+          "previewY": 1360,
           "previewWidth": 320,
           "previewHeight": 512
         },
@@ -54,7 +54,7 @@
         "nodeSpecId": "markdown_viewer",
         "customData": {
           "previewX": 432,
-          "previewY": 832,
+          "previewY": 1360,
           "previewWidth": 304,
           "previewHeight": 512
         },
@@ -87,7 +87,7 @@
         "nodeSpecId": "markdown_viewer",
         "customData": {
           "previewX": 1088,
-          "previewY": 832,
+          "previewY": 1360,
           "previewWidth": 304,
           "previewHeight": 512
         },
@@ -120,7 +120,7 @@
         "nodeSpecId": "markdown_viewer",
         "customData": {
           "previewX": 1408,
-          "previewY": 832,
+          "previewY": 1360,
           "previewWidth": 304,
           "previewHeight": 512
         },
@@ -152,8 +152,8 @@
         "displayLabel": "Generate for Facebook Ads (PaLM)",
         "nodeSpecId": "palm_textgen",
         "customData": {
-          "previewX": 1344,
-          "previewY": 640,
+          "previewX": 1408,
+          "previewY": 1008,
           "previewWidth": 304,
           "previewHeight": 160
         },
@@ -167,8 +167,8 @@
         "propValues": {
           "temperature": 0.95,
           "maxOutputTokens": 800,
-          "immediateMode": true,
-          "hidePreview": true
+          "immediateMode": false,
+          "hidePreview": false
         },
         "inputValues": {
           "prompt": "",
@@ -331,7 +331,7 @@
           "posY": -800,
           "width": 176,
           "height": 130,
-          "selected": true
+          "selected": false
         },
         "propValues": {
           "text": "male adults",
@@ -667,10 +667,10 @@
         "displayLabel": "Facebook Post Rules (PaLM generator)",
         "nodeSpecId": "palm_textgen",
         "customData": {
-          "previewX": 2208,
-          "previewY": 544,
-          "previewWidth": 320,
-          "previewHeight": 240
+          "previewX": 1088,
+          "previewY": 816,
+          "previewWidth": 304,
+          "previewHeight": 176
         },
         "uiData": {
           "posX": -768,
@@ -682,8 +682,8 @@
         "propValues": {
           "temperature": 0.5,
           "maxOutputTokens": 1000,
-          "immediateMode": true,
-          "hidePreview": true
+          "immediateMode": false,
+          "hidePreview": false
         },
         "inputValues": {
           "prompt": "",
@@ -709,10 +709,10 @@
         "displayLabel": "Facebook Ads Rules (PaLM generator)",
         "nodeSpecId": "palm_textgen",
         "customData": {
-          "previewX": 2208,
-          "previewY": 800,
-          "previewWidth": 320,
-          "previewHeight": 240
+          "previewX": 1408,
+          "previewY": 816,
+          "previewWidth": 304,
+          "previewHeight": 176
         },
         "uiData": {
           "posX": -768,
@@ -724,8 +724,8 @@
         "propValues": {
           "temperature": 0.5,
           "maxOutputTokens": 1000,
-          "immediateMode": true,
-          "hidePreview": true
+          "immediateMode": false,
+          "hidePreview": false
         },
         "inputValues": {
           "prompt": "",
@@ -751,10 +751,10 @@
         "displayLabel": "Google Merchant Center Rules (PaLM generator)",
         "nodeSpecId": "palm_textgen",
         "customData": {
-          "previewX": 2208,
-          "previewY": 288,
+          "previewX": 752,
+          "previewY": 816,
           "previewWidth": 320,
-          "previewHeight": 240
+          "previewHeight": 176
         },
         "uiData": {
           "posX": -768,
@@ -766,8 +766,8 @@
         "propValues": {
           "temperature": 0.5,
           "maxOutputTokens": 256,
-          "immediateMode": true,
-          "hidePreview": true
+          "immediateMode": false,
+          "hidePreview": false
         },
         "inputValues": {
           "prompt": "",
@@ -818,10 +818,10 @@
         "displayLabel": "Google Search Rules (PaLM generator)",
         "nodeSpecId": "palm_textgen",
         "customData": {
-          "previewX": 2208,
-          "previewY": 32,
-          "previewWidth": 320,
-          "previewHeight": 240
+          "previewX": 432,
+          "previewY": 816,
+          "previewWidth": 304,
+          "previewHeight": 176
         },
         "uiData": {
           "posX": -768,
@@ -833,8 +833,8 @@
         "propValues": {
           "temperature": 0.5,
           "maxOutputTokens": 1000,
-          "immediateMode": true,
-          "hidePreview": true
+          "immediateMode": false,
+          "hidePreview": false
         },
         "inputValues": {
           "prompt": "",
@@ -860,8 +860,8 @@
         "displayLabel": "Generate for Google Merchant Center (PaLM)",
         "nodeSpecId": "palm_textgen",
         "customData": {
-          "previewX": 688,
-          "previewY": 640,
+          "previewX": 752,
+          "previewY": 1008,
           "previewWidth": 320,
           "previewHeight": 160
         },
@@ -875,8 +875,8 @@
         "propValues": {
           "temperature": 0.8,
           "maxOutputTokens": 256,
-          "immediateMode": true,
-          "hidePreview": true
+          "immediateMode": false,
+          "hidePreview": false
         },
         "inputValues": {
           "prompt": "",
@@ -975,106 +975,6 @@
         }
       },
       {
-        "id": "input_text_fodg7j",
-        "displayLabel": "Step 4",
-        "nodeSpecId": "input_text",
-        "customData": {
-          "initialWidth": 304,
-          "initialHeight": 144,
-          "previewX": 16,
-          "previewY": 832,
-          "previewWidth": 336,
-          "previewHeight": 256
-        },
-        "uiData": {
-          "posX": -1952,
-          "posY": -512,
-          "width": 176,
-          "height": 130,
-          "selected": false
-        },
-        "propValues": {
-          "text": "Get the results you are looking for here (keep scrolling to the right to see all the blue blocks!) -->\n\nIf the result doesn't show up or you want to rerun the model, see the red blocks in the second of the screen. Find those \"Immediate mode\" toggles. Toggle them off and back on again.",
-          "passwordMode": false,
-          "hidePreview": false
-        }
-      },
-      {
-        "id": "input_text_ch2m3r",
-        "displayLabel": "Step 3",
-        "nodeSpecId": "input_text",
-        "customData": {
-          "initialWidth": 304,
-          "initialHeight": 144,
-          "previewX": 16,
-          "previewY": 640,
-          "previewWidth": 336,
-          "previewHeight": 160
-        },
-        "uiData": {
-          "posX": -1952,
-          "posY": -656,
-          "width": 176,
-          "height": 130,
-          "selected": false
-        },
-        "propValues": {
-          "text": "Go to https://aistudio.google.com/\n\nLog in, generate an API key. \n\nCopy and paste it here. -->\n",
-          "passwordMode": false,
-          "hidePreview": false
-        }
-      },
-      {
-        "id": "input_text_6qd0nd",
-        "displayLabel": "Step 2",
-        "nodeSpecId": "input_text",
-        "customData": {
-          "initialWidth": 304,
-          "initialHeight": 144,
-          "previewX": 32,
-          "previewY": 192,
-          "previewWidth": 320,
-          "previewHeight": 112
-        },
-        "uiData": {
-          "posX": -1952,
-          "posY": -800,
-          "width": 176,
-          "height": 130,
-          "selected": false
-        },
-        "propValues": {
-          "text": "Provide two references for each platform you would be sharing the description to.  -->\n\n    ",
-          "passwordMode": false,
-          "hidePreview": false
-        }
-      },
-      {
-        "id": "input_text_qscwyp",
-        "displayLabel": "Step 1",
-        "nodeSpecId": "input_text",
-        "customData": {
-          "initialWidth": 304,
-          "initialHeight": 144,
-          "previewX": 32,
-          "previewY": 16,
-          "previewWidth": 320,
-          "previewHeight": 96
-        },
-        "uiData": {
-          "posX": -1952,
-          "posY": -944,
-          "width": 176,
-          "height": 130,
-          "selected": false
-        },
-        "propValues": {
-          "text": "Fill / change the text in the green boxes -->",
-          "passwordMode": false,
-          "hidePreview": false
-        }
-      },
-      {
         "id": "input_text_oj9ghe",
         "displayLabel": "Main Product Input",
         "nodeSpecId": "input_text",
@@ -1104,8 +1004,8 @@
         "displayLabel": "Generate for Company's official website (PaLM)",
         "nodeSpecId": "palm_textgen",
         "customData": {
-          "previewX": 368,
-          "previewY": 640,
+          "previewX": 432,
+          "previewY": 1008,
           "previewWidth": 304,
           "previewHeight": 160
         },
@@ -1119,8 +1019,8 @@
         "propValues": {
           "temperature": 0.85,
           "maxOutputTokens": 800,
-          "immediateMode": true,
-          "hidePreview": true
+          "immediateMode": false,
+          "hidePreview": false
         },
         "inputValues": {
           "prompt": "",
@@ -1171,8 +1071,8 @@
         "displayLabel": "Generate for Facebook Posts (PaLM)",
         "nodeSpecId": "palm_textgen",
         "customData": {
-          "previewX": 1024,
-          "previewY": 640,
+          "previewX": 1088,
+          "previewY": 1008,
           "previewWidth": 304,
           "previewHeight": 160
         },
@@ -1186,8 +1086,8 @@
         "propValues": {
           "temperature": 0.9,
           "maxOutputTokens": 800,
-          "immediateMode": true,
-          "hidePreview": true
+          "immediateMode": false,
+          "hidePreview": false
         },
         "inputValues": {
           "prompt": "",
@@ -1212,10 +1112,10 @@
         "id": "palm_textgen_9564xc",
         "nodeSpecId": "palm_textgen",
         "customData": {
-          "previewX": 2048,
-          "previewY": 16,
-          "previewWidth": 320,
-          "previewHeight": 240
+          "previewX": 432,
+          "previewY": 1184,
+          "previewWidth": 1280,
+          "previewHeight": 144
         },
         "uiData": {
           "posX": 96,
@@ -1227,8 +1127,8 @@
         "propValues": {
           "temperature": 1,
           "maxOutputTokens": 500,
-          "immediateMode": true,
-          "hidePreview": true
+          "immediateMode": false,
+          "hidePreview": false
         },
         "inputValues": {
           "prompt": "",
@@ -1363,6 +1263,131 @@
           "text": "In 20 words, tell me a positive story about",
           "passwordMode": false,
           "hidePreview": true
+        }
+      },
+      {
+        "id": "input_text_qscwyp",
+        "displayLabel": "Step 1 (1/5)",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 32,
+          "previewY": 16,
+          "previewWidth": 320,
+          "previewHeight": 96
+        },
+        "uiData": {
+          "posX": -1952,
+          "posY": -944,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Fill / change the text in the green boxes -->",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_6qd0nd",
+        "displayLabel": "Step 2 (2/5)",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 32,
+          "previewY": 192,
+          "previewWidth": 320,
+          "previewHeight": 112
+        },
+        "uiData": {
+          "posX": -1952,
+          "posY": -800,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Provide two references for each platform you would be sharing the description to.  -->\n\n    ",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_ch2m3r",
+        "displayLabel": "Step 3 (3/5)",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 16,
+          "previewY": 640,
+          "previewWidth": 336,
+          "previewHeight": 160
+        },
+        "uiData": {
+          "posX": -1952,
+          "posY": -656,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Go to https://aistudio.google.com/\n\nLog in, generate an API key. \n\nCopy and paste it here. -->\n",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_b3btlp",
+        "displayLabel": "Step 4 (4/5)",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 16,
+          "previewY": 816,
+          "previewWidth": 336,
+          "previewHeight": 144
+        },
+        "uiData": {
+          "posX": -1952,
+          "posY": -496,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Click each of the \"Fetch\" button. Keep scrolling to the right to see all the red blocks.",
+          "passwordMode": false,
+          "hidePreview": false
+        }
+      },
+      {
+        "id": "input_text_fodg7j",
+        "displayLabel": "Step 5 (5/5)",
+        "nodeSpecId": "input_text",
+        "customData": {
+          "initialWidth": 304,
+          "initialHeight": 144,
+          "previewX": 16,
+          "previewY": 1360,
+          "previewWidth": 336,
+          "previewHeight": 112
+        },
+        "uiData": {
+          "posX": -1952,
+          "posY": -336,
+          "width": 176,
+          "height": 130,
+          "selected": false
+        },
+        "propValues": {
+          "text": "Get the results you are looking for here -->",
+          "passwordMode": false,
+          "hidePreview": false
         }
       }
     ]
