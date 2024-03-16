@@ -3,7 +3,7 @@
     "id": "g0g1wq",
     "name": "ML-powered Marketing Assistant: Generate the product descriptions for your new products in minutes",
     "creationTs": 1684866947213,
-    "lastModifiedTs": 1710570347765,
+    "lastModifiedTs": 1710570563312,
     "userSetData": {
       "description": "Generate product descriptions that are on brand & optimized for Google search and other platform-specific requirements.",
       "tags": [
@@ -331,10 +331,10 @@
           "posY": -800,
           "width": 176,
           "height": 130,
-          "selected": false
+          "selected": true
         },
         "propValues": {
-          "text": "male adults in LA",
+          "text": "male adults",
           "passwordMode": false,
           "hidePreview": false
         }
