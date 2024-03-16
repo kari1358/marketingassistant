@@ -1,11 +1,11 @@
 {
   "project": {
-    "id": "6z5fun",
+    "id": "g0g1wq",
     "name": "ML-powered Marketing Assistant: Generate the product descriptions for your new products in minutes",
     "creationTs": 1684866947213,
-    "lastModifiedTs": 1710570011501,
+    "lastModifiedTs": 1710570347765,
     "userSetData": {
-      "description": "Write a product description that is on brand, optimized for Google search and other platform-specific requirements.",
+      "description": "Generate product descriptions that are on brand & optimized for Google search and other platform-specific requirements.",
       "tags": [
         "text"
       ],
@@ -359,7 +359,7 @@
           "selected": false
         },
         "propValues": {
-          "text": "Men's Traction",
+          "text": "FluxStride 600",
           "passwordMode": false,
           "hidePreview": false
         }
@@ -1362,7 +1362,7 @@
         "propValues": {
           "text": "In 20 words, tell me a positive story about",
           "passwordMode": false,
-          "hidePreview": false
+          "hidePreview": true
         }
       }
     ]
