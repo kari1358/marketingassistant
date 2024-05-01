@@ -29,13 +29,12 @@ Developed using Google Visual Blocks.
 
 ## To-dos
 
-1. Make the final output easy to copy.
-2. Improve how LLMs understand the requirements for the Google Merchant Center.
-3. Allow users to generate copy considering the following:
+1. Improve how LLMs understand the requirements for the Google Merchant Center.
+2. Allow users to generate copy considering the following:
 
-### General
+#### General
 - More prompts for users to provide more precise descriptions of the target customers/product audience
 
-### Social Media
+#### Social Media
 - Sense of Urgency
 - Length
